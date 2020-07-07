@@ -13,7 +13,7 @@ function Projects() {
                         </div>
                         <div className="col-md-9">
                             <h4 className="project-card-title">Submarine Wars</h4>
-                            <p>Worked with a student team to build an original 2D shooter game. Designed an Entity Management System that allowed new entities to be added efficiently (C++)</p>
+                            <p>Defend your Country agaisnt a submarine attack in this 2D shooter game. Designed an Entity Management System that allowed new entities to be added efficiently (C++)</p>
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ function Projects() {
                         </div>
                         <div className="col-md-9">
                             <h4 className="project-card-title">CANSSI NCSC Ferry Delays</h4>
-                            <p>Utilized neural networks and other data analysis tools to find interesting properties of the data provided from BC Ferries. (R, Python)</p>
+                            <p>Utilized neural networks and other data analysis tools to find interesting properties of the data provided from BC Ferries. Managed to predict delays with a 85% success rate. (R, Python)</p>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ function Projects() {
                         </div>
                         <div className="col-md-9">
                             <h4 className="project-card-title">Online Restaurant Reservation Platform</h4>
-                            <p>Worked with a student team to build an original 2D shooter game. Designed an Entity Management System that allowed new entities to be added efficiently (C++)Online reservation platform for customers and restaurant owners. Played a major role in building the restaurant components for the app. (Meteor, React, MongoDB) (a1dente.herokuapp.com) </p>
+                            <p>Online reservation platform for customers and restaurant owners. Played a major role in building the restaurant components for the app. (Meteor, React, MongoDB)(a1dente.herokuapp.com)</p>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ function Projects() {
                         </div>
                         <div className="col-md-9">
                             <h4 className="project-card-title">Fantasy Basketball Team Picker</h4>
-                            <p>Worked with a student team to build an original 2D shooter game. Designed an Entity Management System that allowed new entities to be added efficiently (C++)</p>
+                            <p>A program that constructs a fantasy basketball team givenstats from Draft Kings. Utilizes various algorithms to decide what players to add in a large list of players.(Python)</p>
                         </div>
                     </div>
                 </div>
