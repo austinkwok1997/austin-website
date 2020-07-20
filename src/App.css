@@ -71,6 +71,11 @@ a {
   padding-bottom: 30px;
 }
 
+.padding-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .light-grey-background {
   background: #EFEFEF;
 }

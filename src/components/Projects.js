@@ -3,8 +3,8 @@ import '../App.css';
 
 function Projects() {
     return (
-        <div className="container padding-30">
-            <h2 className="margin-top-60 projects-title">Projects</h2>
+        <div id="Projects" className="container padding-60">
+            <h2 className="margin-top-20 projects-title">Projects</h2>
             <div className="card margin-top-20">
                 <div class="card-body">
                     <div className="row">

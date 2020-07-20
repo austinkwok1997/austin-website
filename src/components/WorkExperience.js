@@ -4,7 +4,7 @@ import '../App.css';
 function WorkExperience() {
     return (
         <div className="light-grey-background">
-            <div className="container padding-30">
+            <div id="Experience" className="container padding-60">
                 <h2 className="margin-top-20">Work Experience</h2>
                 <div className="row margin-top-60 justify-content-md-center work-cards">
                     <div className="col-lg-5 col-md-6">

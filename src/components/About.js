@@ -3,7 +3,7 @@ import '../App.css';
 
 function About() {
     return (
-        <div className="container padding-30">
+        <div id="About" className="container padding-60">
             <div className="row margin-top-20">
                 <div className="col-md-4">
                     <img className="profile" src="/profile.jpg" alt="profile" />
