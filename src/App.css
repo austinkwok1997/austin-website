@@ -98,7 +98,7 @@ a {
 
 .banner-text {
   position: absolute;
-  top: 20%;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -128,7 +128,26 @@ a {
   pointer-events: none;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 350px) {
+  .vertical-crop {
+    height: 0;
+  }
+
+  .about-me, .work-cards, .work-col, .projects-title, .project-card-title {
+    margin-top: 20px;
+  }
+
+  .cwh-pic {
+    margin-bottom:0;
+  }
+
+  .work-card {
+    height: 610px;
+  }
+}
+
+
+@media (min-width: 351px) and (max-width: 430px) {
   .vertical-crop {
     height: 0;
   }
@@ -142,9 +161,12 @@ a {
   }
 }
 
-@media (min-width: 421px) and (max-width: 780px) {
-  .banner {
-    margin-top:-80px;
+@media (min-width: 431px) and (max-width: 600px) {
+  .vertical-crop {
+    height: 0;
+  }
+  .banner-text {
+    font-size: 40px;
   }
 
   .about-me {
@@ -164,13 +186,108 @@ a {
   }
 }
 
-@media (min-width: 781px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 700px) {
+  .banner {
+    margin-top:-80px;
+  }
+  .banner-text {
+    top: 180px;
+  }
+
+  .about-me {
+    margin-top:0;
+  }
+
+  .work-cards {
+    margin-top: 30px;
+  }
+
+  .cwh-pic {
+    margin-bottom: 40px;
+  }
+
+  .projects-title {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 750px) {
+  .banner {
+    margin-top:-80px;
+  }
+
+  .banner-text {
+    top: 180px;
+  }
+
+  .about-me {
+    margin-top:0;
+  }
+
+  .work-cards {
+    margin-top: 30px;
+  }
+
+  .cwh-pic {
+    margin-bottom: 40px;
+  }
+
+  .projects-title {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 780px) {
+  .banner {
+    margin-top:-80px;
+  }
+
+  .banner-text {
+    top: 180px;
+  }
+
+  .about-me {
+    margin-top:0;
+  }
+
+  .work-cards {
+    margin-top: 30px;
+  }
+
+  .cwh-pic {
+    margin-bottom: 40px;
+  }
+
+  .projects-title {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 800px) {
   .banner {
     margin-top:-60px;
   }
 
-  .banner-text {
-    top: 16%;
+  .about-me {
+    margin-top:0;
+  }
+
+  .work-cards {
+    margin-top: 30px;
+  }
+
+  .cwh-pic {
+    margin-bottom: 40px;
+  }
+
+  .projects-title {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 900px) {
+  .banner {
+    margin-top:-80px;
   }
 
   .about-me {
@@ -209,6 +326,74 @@ a {
 
   .cwh-pic {
     margin-bottom: 42px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+  .banner {
+    margin-top:-120px;
+  }
+
+  .about-me {
+    margin-top: 0;
+  }
+
+  .work-cards {
+    margin-top: 30px;
+  }
+
+  .work-card {
+    height: 600px;
+  }
+
+  .cwh-pic {
+    margin-bottom: 42px;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .banner {
+    margin-top:-152px;
+  }
+  .banner-text {
+    top: 180px;
+  }
+  .about-me {
+    margin-top: 0;
+  }
+
+  .work-cards {
+    margin-top: 30px;
+  }
+
+  .work-card {
+    height: 600px;
+  }
+
+  .cwh-pic {
+    margin-bottom: 42px;
+  }
+}
+
+@media(min-width: 1201px) and (max-width: 1300px) {
+  .banner {
+    margin-top: -270px;
+  }
+
+  .banner-text {
+    top: 180px;
+  }
+}
+
+@media(min-width: 1400px) and (max-width: 1500px) {
+  .banner {
+    margin-top: -220px;
+  }
+}
+
+@media(min-width: 2500px) and (max-width: 2600px) {
+  .banner {
+    margin-top: -530px;
   }
 }
 
