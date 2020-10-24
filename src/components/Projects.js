@@ -52,7 +52,7 @@ function Projects() {
                         </div>
                         <div className="col-md-9">
                             <h4 className="project-card-title">Fantasy Basketball Team Picker</h4>
-                            <p>A program that constructs a fantasy basketball team givenstats from Draft Kings. Utilizes various algorithms to decide what players to add in a large list of players.(Python)</p>
+                            <p>A program that constructs a fantasy basketball team givenstats from Draft Kings. Utilizes various algorithms to decide what players to add in a large list of players. <a href="https://fathomless-anchorage-41408.herokuapp.com/">Link to Project </a>(Python)</p>
                         </div>
                     </div>
                 </div>
