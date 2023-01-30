@@ -24,11 +24,6 @@ function Header() {
                             <li class="nav-item">
                                 <a href="#Projects" class="nav-link">Projects</a>
                             </li>
-                            <li class="nav-item">
-                                <Link to="/contact-me">
-                                    <a href="" class="nav-link">Contact Me</a>
-                                </Link>
-                            </li>
                         </ul>
                     </div>
                 </div>
