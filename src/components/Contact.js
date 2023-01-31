@@ -3,8 +3,8 @@ import '../App.css';
 
 function Contact() {
     return (
-        <div className="Contact margin-top-56">
-            <div className="container padding-30">
+        <div className="light-grey-background">
+            <div id="Contact" className="container padding-60">
                 <h2>Contact Me</h2>
                 <ul className="list-group margin-top-20">
                     <li className="list-group-item">
@@ -18,7 +18,7 @@ function Contact() {
                     </li>
                 </ul>
             </div>
-        </div >
+        </div>
     );
 }
 
