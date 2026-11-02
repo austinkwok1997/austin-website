@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -18,10 +18,10 @@
     "serve": "^11.3.2"
   },
   "scripts": {
-    "dev": "node --openssl-legacy-provider ./node_modules/react-scripts/bin/react-scripts.js start",
+    "dev": "node ./node_modules/react-scripts/bin/react-scripts.js start",
     "start": "serve -s build",
-    "build": "node --openssl-legacy-provider ./node_modules/react-scripts/bin/react-scripts.js build",
-    "test": "node --openssl-legacy-provider ./node_modules/react-scripts/bin/react-scripts.js test --env=jsdom",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "node ./node_modules/react-scripts/bin/react-scripts.js test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
   },
