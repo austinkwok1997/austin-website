@@ -7,16 +7,39 @@ function WorkExperience() {
             <div id="Experience" className="container padding-60">
                 <h2 className="margin-top-20">Work Experience</h2>
                 <div className="row margin-top-20 justify-content-md-center work-cards">
+                    {/* Glia */}
+                    <div className="col-lg-12 col-md-12 work-col">
+                        <div className="card work-card">
+                            <div className="row">
+                                <div className="col-lg-4 col-md-4">
+                                    <img src="/glia.jpg" className="card-img-top" alt="Glia" />
+                                </div>
+                                <div className="col-lg-8 col-md-8">
+                                    <div className="card-body">
+                                        <h3 className="card-title">Glia</h3>
+                                        <p className="card-text">Software Engineer - Conversational AI (Present)</p>
+                                        <ul className="margin-top-20">
+                                            <li>Built and shipped outbound calling capabilities for Glia Virtual Assistants, integrating customer context, workflow selection and opening messages across services to enable AI-powered outbound customer interactions.</li>
+                                            <li>Led production rollout of bulk AI content generation, engineering batching and rate-limit resilience to support high-throughput customer workflows without service degradation.</li>
+                                            <li>Shipped LLM-powered short name generation across core user workflows, reducing friction in high-frequency customer actions for over 10,000 active users.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* D2L */}
                     <div className="col-lg-12 col-md-12 work-col">
                         <div className="card work-card work-card-d2l">
                             <div className="row">
                                 <div className="col-lg-4 col-md-4">
-                                    <img src="/D2L_Logo.jpg" class="card-img-top" alt="D2L" />
+                                    <img src="/D2L_Logo.jpg" className="card-img-top" alt="D2L" />
                                 </div>
                                 <div className="col-lg-8 col-md-8">
                                     <div className="card-body">
                                         <h3 className="card-title">D2L Corporation</h3>
-                                        <p className="card-text">Software Engineer 2 (Current)</p>
+                                        <p className="card-text">Software Engineer 2</p>
                                         <ul className="margin-top-20">
                                             <li>Led critical sections for the longstanding and highly requested automatic quiz submission feature from start to finish, which involved integration between both the instructor and student views and upkeep of backwards compatibility with legacy code. Since launch there has been an average of 7 million quiz attempts per week that uses this feature.</li>
                                             <li>Led the development of an Analytics Builder tool integrated with AWS QuickSight, enabling non-technical users to create custom data visualizations through a no-code interface and generative AI. I planned and prioritized user stories to align with product goals and technical feasibility.</li>
@@ -90,7 +113,7 @@ function WorkExperience() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-12 col-md-12">
+                     <div className="col-lg-12 col-md-12">
                         <div className="card work-card">
                             <div className="row">
                                 <div className="col-lg-4 col-mid-4">

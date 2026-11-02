@@ -1,3 +1,4 @@
+
 h1, h2, h4, h5, p {
   font-family: 'Roboto';
   color: #444444;
@@ -23,7 +24,7 @@ h5 {
   font-size: 20px;
 }
 
-p, a{
+p, a {
   font-size: 16px;
 }
 
@@ -50,7 +51,7 @@ ul {
   margin-top: 60px;
 }
 
-.margin-top-80{
+.margin-top-80 {
   margin-top: 80px;
 }
 
@@ -114,19 +115,47 @@ ul {
   overflow: hidden;
 }
 
-.profile{
+.profile {
   max-width: 100%;
 }
 
-.work-card{
-  height: 310px;
+/* Work Experience Cards */
+
+.work-card {
+  height: auto;
+  min-height: 0;
   border-width: 5px;
   padding: 10px;
   margin-top: 10px;
 }
 
-.work-card-d2l {
-  height: 610px;
+.work-card .row {
+  align-items: center;
+}
+
+.work-card .card-body {
+  min-width: 0;
+  height: auto;
+}
+
+.work-card ul {
+  padding-left: 20px;
+}
+
+.work-card li {
+  overflow-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.work-card a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.work-card img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .project-img {
@@ -138,57 +167,43 @@ ul {
   pointer-events: none;
 }
 
+/* Small Mobile Screens */
+
 @media (max-width: 350px) {
   .vertical-crop {
     height: 0;
   }
 
-  .about-me, .work-cards, .work-col, .projects-title, .project-card-title {
+  .about-me, 
+  .work-cards, 
+  .work-col, 
+  .projects-title, 
+  .project-card-title {
     margin-top: 20px;
   }
 
   .cwh-pic {
-    margin-bottom:0;
-  }
-
-  .work-card {
-    height: 710px;
-  }
-
-  .work-card-d2l {
-    height: 1550px;
+    margin-bottom: 0;
   }
 }
+
+/* Mobile Screens */
 
 @media (min-width: 351px) and (max-width: 430px) {
   .vertical-crop {
     height: 0;
   }
 
-  .about-me, .work-cards, .work-col, .projects-title, .project-card-title {
+  .about-me, 
+  .work-cards, 
+  .work-col, 
+  .projects-title, 
+  .project-card-title {
     margin-top: 20px;
   }
 
   .cwh-pic {
-    margin-bottom:0;
-  }
-
-  .work-card {
-    height: 580px;
-  }
-
-  .work-card-d2l {
-    height: 1160px;
-  }
-}
-
-@media (min-width: 351px) and (max-width: 400px) {
-  .work-card {
-    height: 670px;
-  }
-
-  .work-card-d2l {
-    height: 1300px;
+    margin-bottom: 0;
   }
 }
 
@@ -196,12 +211,13 @@ ul {
   .vertical-crop {
     height: 0;
   }
+
   .banner-text {
     font-size: 40px;
   }
 
   .about-me {
-    margin-top:0;
+    margin-top: 0;
   }
 
   .work-cards {
@@ -215,26 +231,21 @@ ul {
   .projects-title {
     margin-top: 20px;
   }
-
-  .work-card {
-    height: 670px;
-  }
-
-  .work-card-d2l {
-    height: 1300px;
-  }
 }
+
+/* Tablet Screens */
 
 @media (min-width: 601px) and (max-width: 700px) {
   .banner {
-    margin-top:-80px;
+    margin-top: -80px;
   }
+
   .banner-text {
     top: 180px;
   }
 
   .about-me {
-    margin-top:0;
+    margin-top: 0;
   }
 
   .work-cards {
@@ -247,20 +258,12 @@ ul {
 
   .projects-title {
     margin-top: 20px;
-  }
-
-  .work-card {
-    height: 580px;
-  }
-
-  .work-card-d2l {
-    height: 1050px;
   }
 }
 
 @media (min-width: 701px) and (max-width: 750px) {
   .banner {
-    margin-top:-80px;
+    margin-top: -80px;
   }
 
   .banner-text {
@@ -268,7 +271,7 @@ ul {
   }
 
   .about-me {
-    margin-top:0;
+    margin-top: 0;
   }
 
   .work-cards {
@@ -282,19 +285,11 @@ ul {
   .projects-title {
     margin-top: 20px;
   }
-
-  .work-card {
-    height: 580px;
-  }
-
-  .work-card-d2l {
-    height: 1050px;
-  }
 }
 
 @media (min-width: 751px) and (max-width: 780px) {
   .banner {
-    margin-top:-80px;
+    margin-top: -80px;
   }
 
   .banner-text {
@@ -302,19 +297,11 @@ ul {
   }
 
   .about-me {
-    margin-top:0;
+    margin-top: 0;
   }
 
   .work-cards {
     margin-top: 30px;
-  }
-
-  .work-card {
-    height: 610px;
-  }
-
-  .work-card-d2l {
-    height: 870px;
   }
 
   .cwh-pic {
@@ -328,67 +315,7 @@ ul {
 
 @media (min-width: 781px) and (max-width: 800px) {
   .banner {
-    margin-top:-60px;
-  }
-
-  .about-me {
-    margin-top:0;
-  }
-
-  .work-cards {
-    margin-top: 30px;
-  }
-
-  .work-card {
-    height: 600px;
-  }
-
-  .work-card-d2l {
-    height: 860px;
-  }
-
-  .cwh-pic {
-    margin-bottom: 40px;
-  }
-
-  .projects-title {
-    margin-top: 20px;
-  }
-}
-
-@media (min-width: 801px) and (max-width: 900px) {
-  .banner {
-    margin-top:-80px;
-  }
-
-  .about-me {
-    margin-top:0;
-  }
-
-  .work-cards {
-    margin-top: 30px;
-  }
-
-  .cwh-pic {
-    margin-bottom: 40px;
-  }
-
-  .projects-title {
-    margin-top: 20px;
-  }
-
-  .work-card {
-    height: 600px;
-  }
-
-  .work-card-d2l {
-    height: 860px;
-  }
-}
-
-@media (min-width: 901px) and (max-width: 1000px) {
-  .banner {
-    margin-top:-120px;
+    margin-top: -60px;
   }
 
   .about-me {
@@ -399,8 +326,50 @@ ul {
     margin-top: 30px;
   }
 
-  .work-card {
-    height: 700px;
+  .cwh-pic {
+    margin-bottom: 40px;
+  }
+
+  .projects-title {
+    margin-top: 20px;
+  }
+}
+
+/* Medium Desktop Screens */
+
+@media (min-width: 801px) and (max-width: 900px) {
+  .banner {
+    margin-top: -80px;
+  }
+
+  .about-me {
+    margin-top: 0;
+  }
+
+  .work-cards {
+    margin-top: 30px;
+  }
+
+  .cwh-pic {
+    margin-bottom: 40px;
+  }
+
+  .projects-title {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+  .banner {
+    margin-top: -120px;
+  }
+
+  .about-me {
+    margin-top: 0;
+  }
+
+  .work-cards {
+    margin-top: 30px;
   }
 
   .cwh-pic {
@@ -410,11 +379,13 @@ ul {
 
 @media (min-width: 1001px) and (max-width: 1200px) {
   .banner {
-    margin-top:-152px;
+    margin-top: -152px;
   }
+
   .banner-text {
     top: 180px;
   }
+
   .about-me {
     margin-top: 0;
   }
@@ -423,20 +394,12 @@ ul {
     margin-top: 30px;
   }
 
-  .work-card {
-    height: 340px;
-  }
-
-  .work-card-d2l {
-    height: 670px;
-  }
-
   .cwh-pic {
     margin-bottom: 42px;
   }
 }
 
-@media(min-width: 1201px) and (max-width: 1300px) {
+@media (min-width: 1201px) and (max-width: 1300px) {
   .banner {
     margin-top: -270px;
   }
@@ -446,17 +409,41 @@ ul {
   }
 }
 
-@media(min-width: 1400px) and (max-width: 1500px) {
+@media (min-width: 1400px) and (max-width: 1500px) {
   .banner {
     margin-top: -220px;
   }
 }
 
-@media(min-width: 2500px) and (max-width: 2600px) {
+@media (min-width: 2500px) and (max-width: 2600px) {
   .banner {
     margin-top: -530px;
   }
 }
+
+/* Mobile Work Experience Layout */
+
+@media (max-width: 767px) {
+  .work-card .row {
+    flex-direction: column;
+  }
+
+  .work-card .row > div {
+    width: 100%;
+  }
+
+  .work-card img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .work-card .card-body {
+    padding: 15px;
+  }
+}
+
+/* Animations */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -483,6 +470,7 @@ ul {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
