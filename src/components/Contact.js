@@ -11,9 +11,6 @@ function Contact() {
                         <h5>Email: <a href="mailto:austin.kwok@protonmail.com">austin.kwok@protonmail.com</a></h5>
                     </li>
                     <li className="list-group-item">
-                        <h5>Phone: <a href="tel:778-318-3399">(778)-318-3399</a></h5>
-                    </li>
-                    <li className="list-group-item">
                         <h5>LinkedIn: <a href="https://www.linkedin.com/in/austin-kwok/">https://www.linkedin.com/in/austin-kwok/</a></h5>
                     </li>
                 </ul>
